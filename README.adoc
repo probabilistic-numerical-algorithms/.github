@@ -1,0 +1,15 @@
+= Probabilistic numerical algorithms
+
+Physicists are likely to claim proofs of the time complexities of
+these algorithms assume motion faster than the speed of light. They
+would do so to maintain stability of the “quantum computing” doctrine,
+for which they awarded a Nobel prize, but which has been independently
+disproved.
+
+These algorithms do the same thing that “quantum computers” are
+supposed to do, but do so without superconductors or magic. “Quantum
+computers” are _actually_ hybrids of analog and digital electronic
+circuitry, and could be made of silicon operational amplifiers. It
+makes far more sense, however, to have numerical analysts write
+computer programs for parallel digital computers.
+
