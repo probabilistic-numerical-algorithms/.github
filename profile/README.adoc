@@ -51,7 +51,7 @@ IMPORTANT: I AM A DISABLED PERSON WHO COULD NOT HANDLE THE ATTENTION,
 + SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT +
 https://archive.org/details/unified-field-theory
 
-[small]#So here we are, with the correct unified field theory having
+[.small]#So here we are, with the correct unified field theory having
 been found by someone who last worked at a small company that migrated
 RPG programs between platforms. (1) There are no photons, Einstein was
 wrong about that, too. A. F. Kracklauer was right—it is the
