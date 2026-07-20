@@ -1,0 +1,56 @@
+\setupTEXpage[offset=2pt]
+
+% Specify the exact file names to completely bypass fontconfig pattern matching
+\definefontfamily [baskerville] [serif] [BaskervilleF] [
+  tf=file:BaskervilleF-Regular.otf,
+  bf=file:BaskervilleF-Bold.otf,
+  it=file:BaskervilleF-Italic.otf,
+  bi=file:BaskervilleF-BoldItalic.otf,
+]
+
+\definefontfamily [baskerville] [math]  [Latin Modern Math]
+\setupmathrendering[baskerville][all=baskerville]
+\setupbodyfont[baskerville, 12pt]
+
+\starttext
+
+\startTEXpage
+\startalignment[middle]
+
+Basis Vectors
+\startformula
+\startalign
+
+\NC \hfill\{e_1,e_2,e_3,e_4,e_+,e_−\} \hfill\NR
+
+\NC \hfill e_1^2 = e_2^2 = e_3^2 = 1
+\quad\quad e_4^2 = 0
+\quad\quad e_+^2 = 1\quad\quad e_-^2 = -1
+\hfill\NR
+
+\NC \hfill e_{\infty} =  e_+ + e_-
+\quad\quad e_0 =\ {\tfx\frac{1}{2}}\left(e_- - e_+\right) \hfill\NR
+
+\NC \hfill e_\infty^2 = e_0^2 = 0
+\quad\quad e_0 \cdot e_\infty = -1 \hfill\NR
+
+\stopalign
+\stopformula
+
+Master Field Equation
+\startformula
+\startalign
+\NC\hfill D F_{\mtext{total}} = J_{\mtext{total}} \hfill\NR
+\NC\hfill D = \nabla + e_4 {\frac{1}{c}}D_t
+\quad\quad D_t = \frac{\partial}{\partial t} - u\cdot\nabla \hfill\NR
+\NC\hfill F_{\mtext{total}} =
+E e_4 + c B \left(e_1\wedge e_2\wedge e_3\right) \hfill\NR
+\NC\hfill J_{\mtext{total}}=\rho_0 U
+\quad\quad U = u + c e_4 \hfill\NR
+\stopalign
+\stopformula
+
+\stopalignment
+\stopTEXpage
+
+\stoptext
