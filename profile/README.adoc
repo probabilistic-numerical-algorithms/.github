@@ -22,12 +22,13 @@ image::assets/master_field_equation.png[The basis vectors of Cl411 and the Maste
 I have independently proven that “quantum” theory is a load of
 rubbish. This is not difficult to do. Anyone with the slightest
 _proper_ knowledge of linear spaces can see that Hilbert space is a
-space of logical propositions, not of physical states. But it is more
-than that. It is that Niels Bohr deliberately up set “quantum” theory
-as a cult in which physicists were required to believe contradictory
-propositions simultaneously, producing the same paralysis of cerebral
-activity depicted in Orwell’s _Nineteen Eighty-Four_. He thus became
-the overlord of physics, I guess.
+space of logical propositions, not of physical states. The situation
+is far worse than just that “quantum” theory is not merely _wrong_ but
+in fact _rubbish_. It is that Niels Bohr deliberately up set “quantum”
+theory as a cult in which physicists were required to believe
+contradictory propositions simultaneously, producing the same
+paralysis of cerebral activity depicted in Orwell’s _Nineteen
+Eighty-Four_. He thus became the overlord of physics, I guess.
 
 The cult and its cerebral paralysis are now destroying the IEEE. This
 is why electrical engineers are designing what are plainly hybrid
