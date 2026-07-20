@@ -19,23 +19,28 @@ inertia.
 
 image::assets/master_field_equation.png[The basis vectors of Cl411 and the Master Field Equation,800, align="center"]]
 
-I have independently proven that “quantum” theory is a load of
-rubbish. This is not difficult to do. Anyone with the slightest
+Separately I have in many ways proven that “quantum” theory is a load
+of rubbish. This is not difficult to do. Anyone with the slightest
 _proper_ knowledge of linear spaces can see that Hilbert space is a
-space of logical propositions, not of physical states. The situation
-is far worse than just that “quantum” theory is not merely _wrong_ but
-in fact _rubbish_. It is that Niels Bohr deliberately up set “quantum”
-theory as a cult in which physicists were required to believe
-contradictory propositions simultaneously, producing the same
-paralysis of cerebral activity depicted in Orwell’s _Nineteen
-Eighty-Four_. He thus became the overlord of physics, I guess.
+space of logical propositions, not of physical states. Furthermore,
+Maxwell’s theory is explicitly one of no-action-at-a-distance, so is
+completely incompatible with “quantum” theory. But the situation is
+such that none of these proofs is likely to take hold. Niels Bohr
+deliberately designed “quantum” theory as a cult in which physicists
+were required to believe contradictory propositions simultaneously.
+Thus modern “physics” produces the same paralysis of cerebral activity
+depicted in Orwell’s _Nineteen Eighty-Four_.
 
-The cult and its cerebral paralysis are now destroying the IEEE. This
-is why electrical engineers are designing what are plainly hybrid
-computers that can be made of operational amplifiers or linear CMOS,
-but instead using Josephson junctions and superconducting magnets. The
-equation above will give you the design, _if_ you use sane
-mathematical techniques such as MaxEnt.
+Those physicists who remained sane, such as Albert Einstein, were
+ostracized.
+
+The cult and its cerebral paralysis are now destroying the IEEE, of
+which I am a senior member. This paralysis of the brain is why
+electrical engineers are designing what are plainly hybrid computers
+that can be made of operational amplifiers or linear CMOS, but instead
+using Josephson junctions and superconducting magnets. The equation
+above will give you the design, _if_ you use sane mathematical
+techniques such as MaxEnt.
 
 And why are electrical engineers, physics graduates, and signal
 processing graduates like me are even working on this at all? It can
