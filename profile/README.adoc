@@ -48,6 +48,6 @@ be done by numerical analysts on parallel digital computers. An
 ordinary mini-PC with what is misnamed an “AI” CPU is an example of
 such a computer.
 
-[.big,.highlight]#*I AM A DISABLED PERSON WHO COULD NOT HANDLE THE
+[.big]##[.highlight]##*I AM A DISABLED PERSON WHO COULD NOT HANDLE THE
  ATTENTION, SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY
- PDFS AT https://archive.org/details/unified-field-theory*#
+ PDFS AT https://archive.org/details/unified-field-theory*####
