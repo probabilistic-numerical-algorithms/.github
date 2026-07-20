@@ -38,7 +38,7 @@ The cult and its cerebral paralysis are now destroying the IEEE, of
 which I am a senior member. This paralysis of the brain is why
 electrical engineers are designing what are plainly hybrid computers
 that can be made of operational amplifiers or linear CMOS, but instead
-using Josephson junctions and superconducting magnets. The equation
+are using Josephson junctions and superconducting magnets. The equation
 above will give you the design, _if_ you use sane mathematical
 techniques such as MaxEnt.
 
