@@ -36,9 +36,9 @@ but instead using Josephson junctions and superconducting magnets. The
 equation above will give you the design, _if_ you use sane
 mathematical techniques such as MaxEnt.
 
-And this is why electrical engineers, physics graduates, and signal
-processing graduates like me are even working on this nonsense at all.
-It can be done by numerical analysts on parallel digital computers.
+And why are electrical engineers, physics graduates, and signal
+processing graduates like me are even working on this at all? It can
+be done by numerical analysts on parallel digital computers.
 
 *I AM A DISABLED PERSON WHO COULD NOT HANDLE THE ATTENTION, SO PLEASE
  DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT
