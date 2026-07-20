@@ -23,15 +23,18 @@ I have independently proven that “quantum” theory is a load of
 rubbish. This is not difficult to do. Anyone with the slightest
 _proper_ knowledge of linear spaces can see that Hilbert space is a
 space of logical propositions, not of physical states. But it is more
-than that. It is that Niels Bohr deliberately set “quantum” theory up
+than that. It is that Niels Bohr deliberately up set “quantum” theory
 as a cult in which physicists were required to believe contradictory
 propositions simultaneously, producing the same paralysis of cerebral
-activity depicted in Orwell’s _Nineteen Eighty-Four_. This is why
-electrical engineers are designing what are plainly hybrid computers
-that can be made of operational amplifiers or linear CMOS, but instead
-using Josephson junctions and superconducting magnets. The equation
-above will give you the design, _if_ you use sane mathematical
-techniques such as MaxEnt.
+activity depicted in Orwell’s _Nineteen Eighty-Four_. He thus became
+the overlord of physics, I guess.
+
+The cult and its cerebral paralysis are now destroying the IEEE. This
+is why electrical engineers are designing what are plainly hybrid
+computers that can be made of operational amplifiers or linear CMOS,
+but instead using Josephson junctions and superconducting magnets. The
+equation above will give you the design, _if_ you use sane
+mathematical techniques such as MaxEnt.
 
 And this is why electrical engineers, physics graduates, and signal
 processing graduates like me are even working on this nonsense at all.
