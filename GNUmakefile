@@ -1,7 +1,7 @@
 %.pdf: %.tex
 	context $(<)
 
-profile/%.png: %.pdf
+profile/assets/%.png: %.pdf
 	magick -density 450 $(<) \
 	       -background "#f6f8fa" \
 	       -layers flatten \
@@ -9,8 +9,9 @@ profile/%.png: %.pdf
 	       $(@)
 
 .PHONY: default clean veryclean
-default:: profile/master_field_equation.png
+default:: profile/assets/master_field_equation.png
+veryclean:: clean
 clean::
 	-rm -f master_field_equation.{pdf,tuc,log}
 veryclean::
-	-rm -f profile/master_field_equation.png
+	-rm -f profile/assets/master_field_equation.png
