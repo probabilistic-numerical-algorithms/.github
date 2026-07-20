@@ -17,7 +17,7 @@ be true, so I sought one that was so compelling it could not be denied
 the same. It is that electromagnetic waves obey Newton’s law of
 inertia.
 
-image::master_field_equation.png[The basis vectors of Cl(4,1,1) and the Master Field Equation]
+image::profile/master_field_equation.png[The basis vectors of Cl(4,1,1) and the Master Field Equation]
 
 I have independently proven that “quantum” theory is a load of
 rubbish. This is not difficult to do. Anyone with the slightest
