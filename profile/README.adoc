@@ -49,7 +49,7 @@ ordinary mini-PC with what is misnamed an “AI” CPU is an example of
 such a computer.
 
 ++++
-<div> <font style="font-size:2em;">I AM A DISABLED PERSON WHO COULD NOT
+<div> <font size="3">I AM A DISABLED PERSON WHO COULD NOT
 HANDLE THE ATTENTION, SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU
 CAN READ MY PDFS AT <a
 href="https://archive.org/details/unified-field-theory">https://archive.org/details/unified-field-theory</a>
