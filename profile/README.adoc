@@ -56,16 +56,24 @@ been found by someone who last worked at a small company that migrated
 RPG programs between platforms. (1) There are no photons, Einstein was
 wrong about that, too. A. F. Kracklauer was right—it is the
 _photodetectors_ that are responsible for the photoelectric effect.
-(2) There are no black holes, although the objects mistaken for them
-are indeed objects that trap light. (3) A neutron most likely is
-simply an electron orbiting a proton. _Abductive reasoning_ always
-said it was. (4) There is no dark matter and there is no dark energy.
-These were always ridiculous ideas. The Cosmic Microwave Background is
-noise from galaxies so far away they cannot be seen, because the light
-from them has undergone too many impacts on its way here. The universe
-is probably in equilibrium, and in any case we can see only a small
-part of it. (4) Cold fusion is real and it works in the same way
-muscle tissue defies ordinary thermodynamic theory. There is no such
-thing as “tunneling” and so the usual arguments against cold fusion
-are nonsense. Even Esaki diodes have nothing to do with “tunneling.”#
+Aspect got violations because he counted only simultaneous detections.
+Even Hilbert space predicted no violations—but physicists with
+paralyzed brains did the mathematics incorrectly. (2) There are no
+black holes, although the objects mistaken for them are indeed objects
+that trap light. (3) A neutron most likely is simply an electron
+orbiting a proton. _Abductive reasoning_ always said it was. (4) There
+is no dark matter and there is no dark energy. These were always
+ridiculous ideas. The Cosmic Microwave Background is noise from
+galaxies so far away they cannot be seen, because the light from them
+has undergone too many impacts on its way here. The universe is
+probably in equilibrium, and in any case we can see only a small part
+of it. (5) Cold fusion is real and it works in the same way muscle
+tissue defies ordinary thermodynamic theory. There is no such thing as
+“tunneling” and so the usual arguments against cold fusion are
+nonsense. Even Esaki diodes have nothing to do with “tunneling.” (6)
+The atomic clocks flown around the world showed different times for
+the same reason pendulum clocks would have shown different times. This
+had to be one of the stupidest experiments ever done, although it
+never occurred to me this was the explanation. People are stupid, no
+matter their IQ.#
 
