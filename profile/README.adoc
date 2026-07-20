@@ -42,11 +42,10 @@ are using Josephson junctions and superconducting magnets. The equation
 above will give you the design, _if_ you use sane mathematical
 techniques such as MaxEnt.
 
-However, why are electrical engineers, physics graduates, and signal
-processing graduates like me are even working on this at all? It can
-be done by numerical analysts on parallel digital computers. An
-ordinary mini-PC with what is misnamed an “AI” CPU is an example of
-such a computer.
+However, why are electrical engineers, including signal processing
+graduates like me, even working on this at all? It can be done by
+numerical analysts on parallel digital computers. An ordinary mini-PC
+with what is misnamed an “AI” CPU is an example of such a computer.
 
 IMPORTANT: I AM A DISABLED PERSON WHO COULD NOT HANDLE THE ATTENTION, +
 SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT +
