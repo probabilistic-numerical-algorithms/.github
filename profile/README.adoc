@@ -77,3 +77,141 @@ had to be one of the stupidest experiments ever done, although it
 never occurred to me this was the explanation. People are stupid, no
 matter their IQ.#
 
+[.source,Python]
+----
+#!/usr/bin/env nix-shell
+#!nix-shell -p "python3.withPackages(ps: with ps; [ matplotlib pyqt6 numpy ])" qt6.qtwayland --run "QT_QPA_PLATFORM=wayland WAYLAND_DISPLAY=wayland-0 python inertial_waves.py"
+
+import numpy as np
+import matplotlib
+matplotlib.use('QtAgg', force=True) 
+
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+
+# 1. Initialize Figure Window in Clean Space Layout
+fig, ax = plt.subplots(figsize=(12, 8))
+ax.set_xlim(-10, 20)
+ax.set_ylim(-10, 10)
+ax.set_aspect('equal')
+ax.axis('off')
+ax.set_facecolor('#0f0f1f')
+fig.patch.set_facecolor('#0f0f1f')
+
+# 2. RENDER STATIC CAPTIONS ONCE
+caption_text = (
+    "UNIFIED FIELD THEORY\n"
+    "The EM field is the only field, and gravity is an electromagnetic effect.\n"
+    "The Michelson-Morley effect is due to INERTIA OF ELECTROMAGNETIC WAVES.\n"
+    "Because light consists of waves, ALL ARGUMENTS MUST INVOKE WAVE MECHANICS.\n"
+    "(No naive counterarguments about “light rays” overtaking one another, etc.)"
+)
+fig.text(0.5, 0.05, caption_text, color='#e0e0ff', fontsize=11, ha='center', va='center')
+
+formula_box = (
+    r"$\mathbf{Longitudinal\ Doppler\ Shift:}$" + "\n" +
+    r"$f = f_0 \sqrt{\frac{1 + \frac{v}{c}}{1 - \frac{v}{c}}}$" + "\n\n" +
+    r"$\mathbf{Transverse\ Doppler\ Shift:}$" + "\n" +
+    r"$f = f_0 \sqrt{1 - \frac{v^2}{c^2}}$"
+)
+ax.text(-9, 7, formula_box, color='#a0c0ff', fontsize=12, bbox=dict(facecolor='#1a1a2e', alpha=0.8, edgecolor='#3a3a5e', boxstyle='round,pad=1'))
+
+# Physics Vector Constants
+v_source = 1.5   
+wave_speed = 3.0 
+
+wavefronts = []
+droplets = []
+active_artists = []
+
+mm_x, mm_y = 4.0, -4.0
+mm_arm_length = 3.0
+
+def update(frame):
+    global droplets, active_artists
+    
+    # Fast, targeted clean-up pass of loop elements only
+    for artist in active_artists:
+        artist.remove()
+    active_artists.clear()
+    
+    t = frame * 0.05
+    x_source = -8.0 + v_source * t
+    y_source = 3.0
+    
+    transmitter_active = (x_source <= 20.0)
+    
+    if transmitter_active:
+        if frame % 15 == 0:
+            wavefronts.append({'t0': t, 'x0': x_source, 'y0': y_source})
+            
+        if frame % 12 == 0:
+            for angle in np.linspace(0, 2*np.pi, 6, endpoint=False):
+                droplets.append({
+                    'x': x_source,
+                    'y': y_source,
+                    'vx': 0.8 * np.cos(angle) + v_source,
+                    'vy': 0.8 * np.sin(angle),
+                    'alpha': 0.6  
+                })
+                
+        # Draw Transmitter Core
+        tx_dot, = ax.plot(x_source, y_source, 'o', color='#ff3366', markersize=10)
+        
+        # MOVED MESSAGE: The descriptor label now tracks dynamically right next to the moving transmitter
+        tx_text = ax.text(x_source, y_source + 0.6, "Transmitter (emitting oil droplets)", 
+                          color='#888888', ha='center', fontsize=9)
+        active_artists.extend([tx_dot, tx_text])
+
+    # Step and evaporate droplets continuously
+    surviving_droplets = []
+    for d in droplets:
+        d['x'] += d['vx'] * 0.05
+        d['y'] += d['vy'] * 0.05
+        d['alpha'] -= 0.005  
+        
+        if d['alpha'] > 0.01:
+            surviving_droplets.append(d)
+            scat = ax.scatter(d['x'], d['y'], s=8, color='#ffff00', alpha=d['alpha'])
+            active_artists.append(scat)
+            
+    droplets = surviving_droplets
+        
+    for wf in wavefronts:
+        radius = wave_speed * (t - wf['t0'])
+        if radius > 0 and radius < 25:
+            cx = wf['x0'] + v_source * (t - wf['t0'])
+            circle = plt.Circle((cx, wf['y0']), radius, color='#00ffcc', fill=False, alpha=max(0.1, 1.0 - radius/25.0), lw=1.5)
+            ax.add_patch(circle)
+            active_artists.append(circle)
+                        
+    current_mm_x = mm_x + v_source * t
+    mm_base, = ax.plot(current_mm_x, mm_y, 's', color='#888888', markersize=12) 
+    mm_arm1, = ax.plot([current_mm_x, current_mm_x + mm_arm_length], [mm_y, mm_y], color='#555555', lw=2) 
+    mm_arm2, = ax.plot([current_mm_x, current_mm_x], [mm_y, mm_y + mm_arm_length], color='#555555', lw=2) 
+    mm_txt = ax.text(current_mm_x, mm_y - 0.8, "Michelson-Morley apparatus", color='#888888', ha='center', fontsize=9)
+    active_artists.extend([mm_base, mm_arm1, mm_arm2, mm_txt])
+    
+    cycle_t = t % 2.0 
+    if cycle_t < 1.0:
+        p_long_x = current_mm_x + (cycle_t * mm_arm_length)
+        p_long_y = mm_y
+        p_trans_x = current_mm_x
+        p_trans_y = mm_y + (cycle_t * mm_arm_length)
+    else:
+        p_long_x = current_mm_x + ((2.0 - cycle_t) * mm_arm_length)
+        p_long_y = mm_y
+        p_trans_x = current_mm_x
+        p_trans_y = mm_y + ((2.0 - cycle_t) * mm_arm_length)
+        
+    arc_l = plt.Circle((p_long_x, p_long_y), 0.3, color='#00aaff', fill=False, lw=1.5)
+    arc_t = plt.Circle((p_trans_x, p_trans_y), 0.3, color='#00aaff', fill=False, lw=1.5)
+    ax.add_patch(arc_l)
+    ax.add_patch(arc_t)
+    active_artists.extend([arc_l, arc_t])
+        
+    return []
+
+anim = animation.FuncAnimation(fig, update, frames=300, interval=50, blit=False)
+plt.show()
+----
