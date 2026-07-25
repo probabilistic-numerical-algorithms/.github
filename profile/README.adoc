@@ -89,6 +89,8 @@ matter their IQ.#
 #!nix-shell -p "python3.withPackages(ps: with ps; [ matplotlib pyqt6 numpy ])" qt6.qtwayland --run "QT_QPA_PLATFORM=wayland WAYLAND_DISPLAY=wayland-0 python inertial_waves.py"
 
 #
+# inertial_waves.py
+#
 # A program to help people visualize the Michelson-Morley effect.
 #
 # Online searches sometimes will mention a theory by Walter Ritz,
