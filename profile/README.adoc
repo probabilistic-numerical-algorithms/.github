@@ -57,9 +57,10 @@ IMPORTANT: I AM A DISABLED PERSON WHO COULD NOT HANDLE THE ATTENTION,
 + SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT +
 https://archive.org/details/unified-field-theory
 
-Here is an aid in visualizing how radio and light waves travel and
-thus why there is a unified field theory in which it becomes easy to
-re-analyze “quantum” computers and redo the algorithms digitally:
+Here is an aid in visualizing how radio and light waves travel
+inertially, and thus why there is a unified field theory in which it
+becomes easy to re-analyze “quantum” computers and redo the algorithms
+digitally:
 
 [.source,Python]
 ----
