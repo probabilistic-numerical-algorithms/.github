@@ -82,6 +82,19 @@ matter their IQ.#
 #!/usr/bin/env nix-shell
 #!nix-shell -p "python3.withPackages(ps: with ps; [ matplotlib pyqt6 numpy ])" qt6.qtwayland --run "QT_QPA_PLATFORM=wayland WAYLAND_DISPLAY=wayland-0 python inertial_waves.py"
 
+#
+# A program to help people visualize the Michelson-Morley effect.
+#
+# Online searches sometimes will mention a theory by Walter Ritz,
+# and cite counterarguments to his proposal. I do not bother looking
+# into that history, because who cares. However, the counterarguments
+# do not invoke the wave mechanics and thus are meaningless in this
+# context. I have the equation. It is at
+# https://archive.org/details/unified-field-theory
+# If you deny it yields both Maxwell’s equations and Newton’s law
+# of universal gravitation, you need to see a neurologist.
+#
+
 import numpy as np
 import matplotlib
 matplotlib.use('QtAgg', force=True) 
