@@ -87,7 +87,7 @@ matter their IQ.#
 #
 # Online searches sometimes will mention a theory by Walter Ritz,
 # and cite counterarguments to his proposal. I do not bother looking
-# into that history, because who cares. However, the counterarguments
+# into that history, because who cares? However, the counterarguments
 # do not invoke the wave mechanics and thus are meaningless in this
 # context. I have the equation. It is at
 # https://archive.org/details/unified-field-theory
