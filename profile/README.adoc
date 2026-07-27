@@ -61,7 +61,13 @@ Below is an aid for visualizing how radio and light waves travel
 inertially, and thus why there is a unified field theory in which it
 becomes easy to re-analyze “quantum” computers and redo the algorithms
 digitally. It is a Python script to generate a GIF of an animation. It
-assumes you have a TeX installation.
+assumes you have a TeX installation. A good way to generate the GIF is
+
+[.source,Shell]
+----
+python inertial_waves_batch.py
+gifsicle --colors 256 -b -O3 inertial_waves.gif
+----
 
 [.source,Python]
 ----
