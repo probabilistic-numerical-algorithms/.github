@@ -63,9 +63,13 @@ becomes easy to re-analyze “quantum” computers and redo the algorithms
 digitally. It is a Python script to generate a GIF of an
 animation.footnote:[The GIF’s bottom caption alludes to facile
 arguments that were used against Walter Ritz’s proposed explanation of
-the Michelson-Morley experiment, which was similar to ours.] The
-script assumes you have a TeX installation. A good way to generate the
-GIF is
+the Michelson-Morley experiment, which was similar to ours. Note that,
+because my education was not in physics per se, but in electrical
+engineering, my intuition jumps directly to radio waves rather than to
+“light rays.” Thus I have a huge advantage over those who shot down
+Ritz’s proposal: what my imagination leaps to is _something that
+actually exists_.] The script assumes you have a TeX installation. A
+good way to generate the GIF is
 
 [.source,Shell]
 ----
