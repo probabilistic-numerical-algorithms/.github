@@ -60,8 +60,12 @@ https://archive.org/details/unified-field-theory
 Below is an aid for visualizing how radio and light waves travel
 inertially, and thus why there is a unified field theory in which it
 becomes easy to re-analyze “quantum” computers and redo the algorithms
-digitally. It is a Python script to generate a GIF of an animation. It
-assumes you have a TeX installation. A good way to generate the GIF is
+digitally. It is a Python script to generate a GIF of an
+animation.footnote:[The GIF’s bottom caption alludes to facile
+arguments that were used against Walter Ritz’s proposed explanation of
+the Michelson-Morley experiment, which was similar to ours.] The
+script assumes you have a TeX installation. A good way to generate the
+GIF is
 
 [.source,Shell]
 ----
