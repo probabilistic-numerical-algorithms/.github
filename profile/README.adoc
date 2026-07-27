@@ -62,8 +62,8 @@ inertially, and thus why there is a unified field theory in which it
 becomes easy to re-analyze “quantum” computers and redo the algorithms
 digitally. It is a Python script to generate a GIF of an
 animation.footnote:[The GIF’s bottom caption alludes to facile
-arguments that were used against Walter Ritz’s proposed explanation of
-the Michelson-Morley experiment, which was similar to ours. Note that,
+arguments that were used against Walter Ritz’s proposed explanation,
+similar to ours, of the Michelson-Morley experiment. Notice that,
 because my education was not in physics per se, but in electrical
 engineering, my intuition jumps to radio waves rather than “light
 rays.” Thus I have an advantage over those who argued down Ritz’s
