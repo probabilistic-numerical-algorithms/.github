@@ -67,9 +67,10 @@ similar to ours, of the Michelson-Morley experiment. Notice that,
 because my education was not in physics per se, but in electrical
 engineering, my intuition jumps to radio waves rather than “light
 rays.” Thus I have an advantage over those who argued down Ritz’s
-proposal: what my imagination leaps to _exists_. “Light rays” _do
-not_.] The script assumes you have a TeX installation. A good way to
-generate the GIF is
+proposal: what my imagination leaps to _exists_. “Light rays” _do not
+exist_. Therefore arguments appealing to them, either explicitly or
+implicitly, are pure nonsense.] The script assumes you have a TeX
+installation. A good way to generate the GIF is
 
 [.source,Shell]
 ----
