@@ -7,7 +7,11 @@ requires special hardware if it is going to break RSA-2048, whether it
 be implemented shabbily as analog or properly as digital. _On the
 other hand, a brute force parallel search beats them all!_ The oracle
 of Grover’s algorithm is a brute force parallel search. You might as
-well just use its output!
+well just use its output. Furthermore, the analysis of “quantum”
+algorithms uniformly neglects to account for the speed of propagation
+of signals, always assuming signals propagate “instantaneously,” which
+is impossible. Analysis of digital algorithms, on the other hand,
+accounts for the clock frequency.
 
 These algorithms do the same thing that “quantum computers” are
 supposed to do, but do so without superconductors or magic. “Quantum
