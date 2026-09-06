@@ -4,7 +4,10 @@ NOTE: The Grover’s search algorithm in Ada, customized for AMD Zen 5
 CPU, has successfully found an element, in an array of over 1 million,
 in about 3 milliseconds. Shor’s algorithm, on the other hand, still
 requires special hardware if it is going to break RSA-2048, whether it
-be implemented shabbily as analog or properly as digital.
+be implemented shabbily as analog or properly as digital. _On the
+other hand, a brute force parallel search beats them all!_ The oracle
+of Grover’s algorithm is a brute force parallel search. You might as
+well just use its output!
 
 These algorithms do the same thing that “quantum computers” are
 supposed to do, but do so without superconductors or magic. “Quantum
