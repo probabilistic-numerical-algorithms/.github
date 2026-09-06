@@ -54,8 +54,8 @@ numerical analysts on parallel digital computers. An ordinary mini-PC
 with what is misnamed an “AI” CPU is an example of such a computer.
 
 IMPORTANT: I AM A DISABLED PERSON WHO COULD NOT HANDLE THE ATTENTION,
-+ SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT +
-https://archive.org/details/unified-field-theory
+SO PLEASE DO NOT BOTHER ME ABOUT ALL THIS. YOU CAN READ MY PDFS AT
+https://github.com/chemoelectric/iris-numbers-and-unified-field-theory
 
 Below is an aid for visualizing how radio and light waves travel
 inertially, and thus why there is a unified field theory in which it
